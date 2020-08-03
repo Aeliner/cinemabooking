@@ -1,0 +1,53 @@
+@keyframes slidy {
+    0% { left: 0%; }
+    15% { left: 0%; }
+    20% { left: -100%; }
+    35% { left: -100%; }
+    40% { left: -200%; }
+    55% { left: -200%; }
+    60% { left: -300%; }
+    75% { left: -300%; }
+    80% { left: -400%; }
+    95%{ left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider1, div#slider2 { overflow: hidden; }
+    div#slider1 figure img { height:100vh; width: 20%; float: left;}
+    div#slider1 figure, div#slider2 figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+
+    @media (min-width:1280px)
+    {
+        div#slider2{
+            display:none;
+        }
+    }
+
+    @media screen and (orientation: landscape) and (max-width:1280px)
+    {
+        div#slider1{
+            display:block;
+        }
+        div#slider2{
+            display:none;
+        }
+    }
+
+    @media screen and (orientation: portrait) and (max-width:1280px)
+    {
+        div#slider2{
+            display:block;
+        }
+        div#slider1{
+            display:none;
+        }
+    }
+    div#slider2 figure img { width: 20%; float: left; height:100vh;}
