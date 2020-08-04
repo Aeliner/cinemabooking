@@ -35,6 +35,7 @@ label{
 }
 .full {	
         height:100vh;
+	max-width:100%;
 }
 .main{
 	 border-left: 104px solid #383838;
