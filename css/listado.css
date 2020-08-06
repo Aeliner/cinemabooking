@@ -90,7 +90,7 @@ h1, h2, h3 {
 i.book1 {
 	width: 40px;
 	height: 35px;
-	background: url(../imagenes/img-sprite.png) no-repeat -300px -87px;
+	background: url(./images/img-sprite.png) no-repeat -300px -87px;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 10px
