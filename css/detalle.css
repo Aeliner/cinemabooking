@@ -46,7 +46,7 @@ body, html {
 	color: #000;
 	margin-bottom: .25em;
 	opacity: .75;
-	font-size: 1.5vw;
+	font-size: 1.4vw;
 	font-weight: 900
 }
 .row2 .alt_title{
@@ -92,8 +92,9 @@ body, html {
 
 .movie-desc p{
 	opacity: .84;
-	font-size: 1.1vw;
+	font-size: 1vw;
 	letter-spacing:2px;
+	margin-right:10px;
 }
 
 .tags{
@@ -253,7 +254,7 @@ font-weight: 900;
 	  }
 
 	  .trailer{
-		  margin-top:55vh;
+		  margin-top:70%;
 	  }
 
 	  .movie-info{
