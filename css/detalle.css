@@ -147,7 +147,7 @@ line-height: 1.2;
 i.video1{
 	width:60px;
 	height:60px;
-	background:url('./images/img-sprite.png') no-repeat -60px -60px;
+	background:url('../images/img-sprite.png') no-repeat -60px -60px;
 	display:block;
 }
 
